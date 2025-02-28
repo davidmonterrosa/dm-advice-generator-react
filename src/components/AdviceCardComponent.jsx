@@ -16,21 +16,21 @@ const AdviceCardComponent = () => {
             <div className="flex flex-col justify-center place-items-center max-w-[335px] md:max-w-[45%] md:min-w-[480px] bg-[hsl(217,19%,24%)] rounded-2xl relative py-12 px-2 md:p-12">
                 {
                     adviceQuote.length == 0 ?
-                    <small className="text-[hsl(150,100%,66%)] uppercase font-['Manrope'] tracking-[1.5em] font-extrabold mb-5">
+                    <small className="text-[hsl(150,100%,66%)] uppercase font-['Manrope'] tracking-[.32em] font-extrabold mb-5">
                         Advice #117
                     </small>
                     :
-                    <small className="text-[hsl(150,100%,66%)] uppercase font-['Manrope'] tracking-[1.5em] font-extrabold mb-5">
-                        A d v i c e # {adviceId}
+                    <small className="text-[hsl(150,100%,66%)] uppercase font-['Manrope'] tracking-[.32em] font-extrabold mb-5">
+                        Advice #{adviceId}
                     </small>
                 }
                 {
                     adviceQuote.length == 0 ?
-                    <q className="text-[hsl(193,38%,86%)] text-[28px] font-extrabold font-['Manrope'] leading-tight text-center mb-7">
+                    <q className="text-[hsl(193,38%,86%)] text-[28px] font-extrabold font-['Manrope'] leading-tight text-center mb-7 md:mb-10">
                         It is easy to sit up and take notice, what's difficult is getting up and taking action.
                     </q>
                     :
-                    <q className="text-[hsl(193,38%,86%)] text-[28px] font-extrabold font-['Manrope'] leading-tight text-center mb-7">
+                    <q className="text-[hsl(193,38%,86%)] text-[28px] font-extrabold font-['Manrope'] leading-tight text-center mb-7 md:mb-10">
                         {adviceQuote}
                     </q>
 
