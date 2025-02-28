@@ -16,4 +16,5 @@ Goal is to recreate this challenge as close to the design as possible and having
 
 
 Peer Reviewed By:
->
+>Thao Vang
+Everything works good. looks like the visual given. hover highlight works. responsive. not much else to say.
